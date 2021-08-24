@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="nav container">
+        <nav class="top-nav">
+          <!-- Навигация. Логотип-ссылка с текстом-->
+          <a href="/" class="logo"><span class="color-logo">Web</span>Studio</a>
+          <!-- Навигация. Ссылка на главную страницу. Сыылка на портфолио и контакты -->
+          <ul class="site-nav list">
+            <li class="item">
+              <a class="contact-link" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="contact-link current" href="">Портфолио</a>
+            </li>
+            <li class="item">
+              <a class="contact-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Контакты -->
+        <ul class="right-nav list">
+          <li class="item">
+            <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Блок-герой -->
+    <main>
+      <!-- Секция навигации -->
+      <section class="section">
+        <div class="container">
+          <!-- Скрытый заголовок -->
+          <h1 class="main-title visually-hidden">Портфолио</h1>
+          <ul class="portfolio-buttons list">
+            <li class="item"><button class="style-scope-button" type="button">Все</button></li>
+            <li class="item">
+              <button class="style-scope-button" type="button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button class="style-scope-button" type="button">Приложения</button>
+            </li>
+            <li class="item"><button class="style-scope-button" type="button">Дизайн</button></li>
+            <li class="item">
+              <button class="style-scope-button" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Скрытый заголовок -->
+          <h2 class="section-title visually-hidden">Проекты студии</h2>
+          <ul class="portfolio-items list">
+            <li class="portfolio-item">
+              <img
+                src="./images/img7.jpg"
+                alt="Ноутбук где на экране изображены портреты людей со ссылками на их портфолио"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Технокряк</h3>
+                <p class="text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img8.jpg"
+                alt="Красочное изображение на постере на котором баскетболисты играют в баскетбол"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h3>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img9.jpg"
+                alt="Реклама рыбного ресторана, где по центру изображена серо-синяя рыба а на ней красивая надпись черными буквами"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Ресторан <span lang="en">Seafood</span></h3>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img10.jpg"
+                alt="Изображение с черными наушниками по центру"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Проект <span lang="en">Prime</span></h3>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img11.jpg"
+                alt="Изображение с коробками, белой и коричневой, коричневая находится спереди и повернута боком а белая за ней"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Проект <span lang="en">Boxes</span></h3>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img12.jpg"
+                alt="Изображение с монитором на всю картинку"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb" lang="en">Inspiration has no Borders</h3>
+                <p class="text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img13.jpg"
+                alt="Изображение с развернутой книгой на всю картинку"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Издание <span lang="en">Limited Edition</span></h3>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img14.jpg"
+                alt="Изображение с белой бумажной биркой от одежды на сером фоне на всю картинку"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb">Проект <span lang="en">LAB</span></h3>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/img15.jpg"
+                alt="На изображении руки человека которые печатают на открытом ноутбуке, на экране ноутбука картинка с подписью Groving business"
+                width="370"
+                height="294"
+              />
+              <div class="portfolio-card">
+                <h3 class="title-adverb" lang="en">Growing Business</h3>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <!-- Логотип -->
+        <a href="/" class="logo-bottom"><span class="color-logo">Web</span>Studio</a>
+        <!-- Физический адрес, мыло и телефон -->
+        <address>
+          <ul class="footer-nav list">
+            <li class="item">
+              <a
+                class="link-bottom adr"
+                href="https://goo.gl/maps/eCC2eFaYXbbJJhADA"
+                rel="noopener noreferrer"
+                target="_blank"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a class="link-bottom" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="item">
+              <a class="link-bottom" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
