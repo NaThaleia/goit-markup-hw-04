@@ -161,7 +161,17 @@ button {
 }
 /* Оформили главный заголовок */
 .main {
-  background-color: #2f303a;
+  display: block;
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/img16.jpg');
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -214,6 +224,32 @@ button {
 .service-item {
   width: 270px;
 }
+/* Добавили иконки в секцию услуг */
+.service-item::before {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 70px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.service-item:nth-child(1)::before {
+  background-image: url('../images/antenna.svg');
+}
+.service-item:nth-child(2)::before {
+  background-image: url('../images/clock.svg');
+}
+.service-item:nth-child(3)::before {
+  background-image: url('../images/diagram.svg');
+}
+.service-item:nth-child(4)::before {
+  background-image: url('../images/astronaut.svg');
+}
 /* Убрали ненужный паддинг в секции Студия */
 .section.features-section {
   padding-top: 0;
@@ -251,6 +287,44 @@ button {
   margin-left: 30px;
   background-color: var(--rare-text-color);
   border-radius: 4px;
+}
+.command-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px 0 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+.command-link .command-link-item + .command-link-item {
+  margin-left: 10px;
+}
+.command-link-item {
+  width: 44px;
+  height: 44px;
+}
+.comand-link-item-icon:hover,
+.comand-link-item-icon:focus {
+  fill: #2196f3;
+}
+.client-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: -30px;
+}
+.client-list > .client-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+}
+.client-item {
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  padding: 16px 32px;
 }
 .names {
   margin-bottom: 10px;
