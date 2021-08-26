@@ -93,8 +93,6 @@ button {
 .nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 .top-nav {
   display: flex;
@@ -115,6 +113,9 @@ button {
 /* Можно сделать еще так .site-nav .item:not(:last-child) {
   margin-right: 50px;
 } */
+.right-nav {
+  display: block;
+}
 /* Задали флекс для навигации. Имейл и телефон. */
 .right-nav {
   display: flex;
@@ -122,7 +123,7 @@ button {
   align-items: center;
 }
 .right-nav .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 /* Добавили стили навигации в Хеадер*/
 .contact-link {
