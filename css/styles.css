@@ -373,8 +373,7 @@ button {
 }
 .client-link:hover,
 .client-link:focus {
-  border-color: solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
