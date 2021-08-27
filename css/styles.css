@@ -301,19 +301,23 @@ button {
 .command-link-item {
   width: 44px;
   height: 44px;
+}
+.command-link-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: var(--rare-text-color);
 }
-.command-link-item:hover .command-icon,
-.command-link-item:focus .command-icon {
-  fill: var(--rare-text-color);
-}
-.command-link-item:hover,
-.command-link-item:focus {
+.command-link-link:hover,
+.command-link-link:focus {
   background-color: var(--accent-color);
+}
+.command-link-link:hover .command-icon,
+.command-link-link:focus .command-icon {
+  fill: var(--rare-text-color);
 }
 .command-icon {
   fill: #afb1b8;
@@ -541,9 +545,9 @@ button {
   color: var(--rare-text-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-link:hover .footer-icon,
-.footer-link:focus .footer-icon {
-  fill: #2196f3;
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
 }
 .footer-icon {
   fill: currentColor;
