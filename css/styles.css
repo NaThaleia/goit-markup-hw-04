@@ -352,9 +352,13 @@ button {
   margin-left: 30px;
 }
 /* Описали свойства контейнера с свг и ссылкой */
-.client-link {
+.client-item {
   height: 92px;
   width: 170px;
+}
+.client-link {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
