@@ -276,7 +276,6 @@ button {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  list-style: none;
   margin-left: -30px;
 }
 .command-list > .card-item {
@@ -343,9 +342,6 @@ button {
 .client-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-  list-style: none;
   margin-left: -30px;
 }
 /* Задали маржины списку */
@@ -402,7 +398,6 @@ button {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  list-style: none;
   margin-left: -30px;
   margin-top: -30px;
 }
