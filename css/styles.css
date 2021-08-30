@@ -444,7 +444,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--rare-text-color);
   margin-bottom: 20px;
-  padding-top: 12px;
 }
 /* Оформили стили списка кнопок в Портфолио*/
 .style-scope-button {
@@ -530,6 +529,7 @@ button {
 /* Задали футеру флекс для позиционирования элементов*/
 .footer-position {
   display: flex;
+  align-items: baseline;
 }
 .footer-list {
   display: flex;
