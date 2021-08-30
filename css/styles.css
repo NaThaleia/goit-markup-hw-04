@@ -23,7 +23,7 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-/* Убрали подчеркивания со ссылок */
+/* Убрали подчеркивания со всех ссылок, иметь в виду, если нужна ссылка с подчеркиванием  */
 a {
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ body {
   background-color: var(--rare-text-color);
   color: var(--primary-text-color);
 }
-/* Задали картинкам свойство блок и максимальную ширину */
+/* Задали картинкам общие свойства - свойство блок и максимальную ширину */
 img {
   display: block;
   max-width: 100%;
@@ -186,6 +186,7 @@ button {
   text-align: center;
 }
 .main-section {
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -322,6 +323,7 @@ button {
 .command-icon {
   fill: #afb1b8;
 }
+/* Оформили имена и профессии */
 .names {
   margin-bottom: 10px;
   font-weight: 500;
@@ -434,13 +436,10 @@ button {
   color: var(--rare-text-color);
 }
 /* Оформили заглавные буквы согласно макету */
-.main-section.upper {
-  text-transform: uppercase;
-}
 .title.upper {
   text-transform: uppercase;
 }
-/* Оформили второй блок футера большими буквами */
+/* Оформили второй блок футера. Это заголовок большими буквами */
 .footer-title.upper {
   text-transform: uppercase;
   color: var(--rare-text-color);
@@ -449,7 +448,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--rare-text-color);
-  margin: 0 0 20px 70px;
+  margin-bottom: 20px;
   padding-top: 12px;
 }
 /* Оформили стили списка кнопок в Портфолио*/
@@ -473,6 +472,7 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+/* Спозиционировали список кнопок в Портфолио */
 .portfolio-buttons {
   display: flex;
   margin-left: auto;
@@ -532,14 +532,13 @@ button {
   background-color: #2f303a;
   padding: 60px 0;
 }
-/* Задали футеру флекс */
+/* Задали футеру флекс для позиционирования элементов*/
 .footer-position {
   display: flex;
 }
 .footer-list {
   display: flex;
   justify-content: center;
-  margin-left: 70px;
 }
 .footer-link-item {
   width: 44px;
@@ -566,6 +565,11 @@ button {
 .footer-icon {
   fill: currentColor;
 }
+/* Оформили позиционирование секций футера */
+.footer-position .footer-left + .footer-right {
+  margin-left: 70px;
+}
+
 /* .flex-element:nth-child(3n) {
   margin-right: 0;
 } 
